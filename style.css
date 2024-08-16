@@ -1,0 +1,53 @@
+.container{
+    width: 1450px;
+    height: 1100px;
+    border: 2px solid;
+    position: relative;
+    margin: 0px;
+
+}
+*{
+box-sizing: border-box;
+}
+
+*{
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+}
+.main{
+    width: 1450px;
+    text-align: end;
+    background-color: rgb(196, 163, 163);
+    position: fixed;
+
+ }
+
+.gfg{
+    padding-left: 40px;
+  margin-bottom: 40px;
+  position: relative;
+   box-shadow: 3px 3px 3px black;
+   z-index: -1;
+ 
+}
+img{
+    width: 1350px;
+    height: 900px;
+    box-shadow: 3px 3px 3px brown;
+}
+
+.text-container{
+    position: absolute;
+    color: black;
+    left: 30%;
+    top: 15%;
+    transform: (-30%, -30%);
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+
+}
